@@ -34,5 +34,11 @@
     <bean id="facultyDao" class="com.springmvc.assessment.dao.FacultyDao">
         <property name="jdbcTemplate" ref="jdbcTemplate"/>
     </bean>
+    
+    <!-- Course DAO Bean -->
+	<bean id="courseDao" class="com.springmvc.assessment.dao.CourseDao">
+    	<property name="jdbcTemplate" ref="jdbcTemplate"/>
+	</bean>
+
 
 </beans>
